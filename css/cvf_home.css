@@ -105,8 +105,14 @@ iframe{
 
 .cvf_menu_item{
 	float: left;
-	width: 16.6666%;
+	width: 20%;
 	height: 100%;
+	line-height: 54px;
+	text-align: center;
+}
+
+.cvf_menu_item img{
+	height: 28px;
 }
 
 .cvf_menu_item:hover{
