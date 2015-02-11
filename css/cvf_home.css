@@ -5,6 +5,9 @@
 	font-family: 'Roboto';
 }
 
+iframe{
+	max-width: 100%;
+}
 
 #cvf_container{
 	width: 1230px;
@@ -31,20 +34,73 @@
 .cvf_header_top_content.side{
 	width: 345px;
 	height: 100%;
+	position: relative;
 }
+
+.cvf_banderin{
+	position: absolute;
+	bottom: 0px;
+	
+	height: 78px;
+}
+
+.cvf_banderin img{
+	height: 100%;
+}
+
+#cvf_banderin_left{
+	left: 70px;
+}
+
+#cvf_banderin_r{
+	right: 70px;
+}
+
+.cvf_contador_cont{
+	position: relative;
+	width: 100%;
+	width: 100%;
+}
+
 
 .cvf_header_top_content.center{
 	width: 540px;
 	height: 100%;
+	position: relative; 
+}
+
+.cvf_header_top_content.center img{
+	position: absolute;
+	bottom: 15px;
+}
+
+.cvf_contador{
+	position: absolute;
+	top: 15px;
+	right: 20px;
+}
+
+.cvf_contador_img{
+	height: 17px;
+	float: left;
+}
+
+.cvf_contador_item{
+	float: left;
 }
 
 #cvf_menu{
 	width: 100%;
 	height: 54px;
-	border-top: 2px solid #202f3e;
-	border-bottom: 2px solid #202f3e;
+
 	background-color: #f57751;
 	
+}
+
+.cvf_menu_border{
+	height: 4px;
+	width: 100%;
+	background-image: url(../images/CVF_l%C3%ADneas.png);
 }
 
 .cvf_menu_item{
@@ -94,7 +150,6 @@
 	display: table;
 }
 
-
 .cvf_col_title{
 	color: white;
 	height: 32px;
@@ -112,11 +167,9 @@
 }
 
 .cvf_noticias_widget .cvf_col_title{
-	
 	width: 100%;
 	text-align: center;
 	padding: 23px 0px;
-	
 }
 
 .cvf_noticias_content{
@@ -175,7 +228,6 @@
 
 
 .cvf_spotify{
-	width: 300px;
 	padding: 23px;
 	margin: auto;
 	background-color: #3a3a3a;
@@ -266,8 +318,10 @@
 
 .cvf_header_top_content.center{
 	width: 330px;
-	height: 100%;
+
 }
+
+
 
 .cvf_col_separador{
 	width: 10px;
@@ -297,6 +351,63 @@
 		padding: 0px;
 		padding-top: 30px;
 	}
+	
+	#cvf_container{
+		width: 100%;
+		height: auto;
+		margin: auto;
+	}
+	
+	/*82*/
+	
+	#cvf_content{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.sep_1{
+		display: none;
+	}
+	
+	.cvf_col{
+		float: none;
+		margin: auto;
+		padding: 0;
+		padding-top: 30px;
+	}
+	
+	#cvf_content{
+		padding: 0px;
+		padding-top: 30px;
+	}
+	
+	.cvf_col{
+		width: 310px;
+
+	}
+	
+	.cvf_spotify_top {
+width: auto;
+height: 32px;
+padding: 0 10px;
+margin-bottom: 23px;
+}
+
+.cvf_spotify{
+	padding: 0;
+	padding-top: 15px;
+}
+
+.cvf_noticias_col.right{
+	width: 192px;
+	
+}
+
+.cvf_noticias_col.right p{
+	margin-right: 5px;
+}
+	
 	
 	#cvf_container{
 		width: 100%;
