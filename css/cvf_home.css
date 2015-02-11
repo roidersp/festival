@@ -2,6 +2,7 @@
 	background-color: #acc7b1;
 	width: 100%;
 	height: auto;
+	font-family: 'Roboto';
 }
 
 
@@ -52,6 +53,10 @@
 	height: 100%;
 }
 
+.cvf_menu_item:hover{
+	background-color: #f2d5ae;
+}
+
 #cvf_body{
 	width: 100%;
 }
@@ -93,8 +98,10 @@
 .cvf_col_title{
 	color: white;
 	height: 32px;
-	font-size: 32px;
+	font-size: 36px;
 	text-transform: uppercase;
+	font-family: 'sunn';
+	font-weight: 300;
 }
 
 .cvf_noticias_widget{
@@ -148,6 +155,11 @@
 	color: white;
 	padding-left: 25px;	
 	line-height: 20px;
+	font-weight: 300;
+}
+
+.cvf_noticias_col.right p{
+	margin-right: 50px;
 }
 
 
@@ -276,6 +288,14 @@
 	
 	.cvf_col{
 		float: none;
+		margin: auto;
+		padding: 0;
+		padding-top: 30px;
+	}
+	
+	#cvf_content{
+		padding: 0px;
+		padding-top: 30px;
 	}
 	
 	#cvf_container{
