@@ -352,8 +352,14 @@ iframe{
 		display: none;
 	}
 	
+	
 	#cvf_col3{
 		float: none;
+		width: 100%;
+	}
+	
+	#cvf_col3 .cvf_element_col{
+		width: 360px;
 	}
 	
 	.cvf_header_top_content.side{
@@ -461,6 +467,11 @@ left: 50px;
 		margin: auto;
 	}
 	
+	#cvf_col3{
+		float: none;
+		width: 360px;
+	}
+	
 	/*82*/
 	
 	.cvf_header_top_content.side{
@@ -531,6 +542,16 @@ left: 50px;
 		width: 310px;
 
 	}
+	
+	#cvf_col3{
+		float: none;
+		width: 310px;
+	}
+	
+	#cvf_col3 .cvf_element_col{
+		width: 100%;
+	}
+
 	
 	.cvf_spotify_top {
 		width: auto;
