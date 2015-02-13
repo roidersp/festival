@@ -23,7 +23,7 @@ iframe{
 
 #cvf_header_top{
 	width: 100%;
-	height: 250px;
+	height: 430px;
 }
 
 .cvf_header_top_content{
@@ -39,7 +39,7 @@ iframe{
 
 .cvf_redes_sociales{
 	display: table;
-	margin-top: 110px;
+	margin-top: 250px;
 }
 
 .cvf_redes_item{
@@ -84,6 +84,7 @@ iframe{
 .cvf_header_top_content.center img{
 	position: absolute;
 	bottom: 15px;
+	margin-left: -72px;
 }
 
 .cvf_contador{
@@ -336,6 +337,78 @@ iframe{
 	background-color: #f6835b;
 }
 
+.cvf_estadios{
+	background-color: #f5dab7;
+}
+
+
+.cvf_estadios_container{
+	
+	display: table;
+	padding: 40px 17px 20px 17px;
+	max-width: 100%;
+	margin: 30px 0px 0px 0px;
+}
+
+.cvf_estadio{
+	width: 360px;
+	height: auto;
+	margin: 0px 19px 20px 19px;
+	display: table;
+	float: left;
+	cursor: pointer;
+}
+
+.cvf_estadio:hover{
+	opacity: .8;
+}
+
+.cvf_estadio:last-child{
+	float: none;
+	margin: auto;	
+}
+
+.cvf_estadio img{
+	width: 100%;
+}
+
+#cvf_content_info{
+	width: 100%;
+	padding: 60px 0;
+	background-color: #f5dab7;
+}
+
+.cvf_info{
+	width: 800px;
+	margin: auto;
+}
+
+.cvf_info p{
+	margin-bottom: 20px;
+	font-family: 'sunn';
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.cvf_info h2{
+	font-size: 70px;
+	font-weight: bolder;
+	text-align: center;
+	font-family: 'sunn';
+	margin-top: 60px;
+}
+
+
+.cvf_lineup{
+	width: 90%;
+	max-width: 920px;
+	margin: auto;
+}
+
+.cvf_lineup img{
+	width: 100%;
+}
 
 @media screen and (max-width: 1230px) {
 	#cvf_container{
@@ -441,6 +514,18 @@ left: 50px;
 	padding:  50px 10px 0px 10px;
 	display: table;
 }
+
+.cvf_estadios_container{
+
+	padding: 10px 5px 5px 5px;
+
+}
+
+.cvf_estadio{
+
+	margin: 0px 5px 0px 5px;
+
+}
 	
 }
 
@@ -498,6 +583,17 @@ left: 50px;
 	.cvf_menu_item img {
 		height: 16px;
 		margin-top: 18px;
+	}
+	
+	.cvf_estadios_container {
+padding: 10px 4px 5px 4px;
+width: 360px;
+margin: auto;
+}
+	
+	.cvf_estadio{
+		margin: auto;
+	
 	}
 	
 }
@@ -586,6 +682,18 @@ left: 50px;
 	#cvf_content{
 		width: 100%;
 	}
+	
+		.cvf_estadios_container {
+padding: 10px 0px 5px 0px;
+width: 300px;
+margin: auto;
+}
+	
+	.cvf_estadio{
+		margin: auto;
+		width: 100%;
+	}
+	
 }
 
 
