@@ -152,6 +152,7 @@ iframe{
 	background-position: center bottom;
 	background-size: 1240px auto;
 	background-repeat: no-repeat;
+	display: table;
 }
 
 #cvf_body:before{
