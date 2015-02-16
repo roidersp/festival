@@ -258,9 +258,9 @@ iframe{
 
 .cvf_element_img{
 	width: 100%;
-	background-color: #93a498;
-	height: 300px; /*quitar*/
 	border-radius: 5px 5px 0px 0px;
+	display: table;
+	text-align: center;
 }
 
 .cvf_element_img img{
@@ -336,6 +336,12 @@ iframe{
 	height: 420px;
 	width: 100%;
 	background-color: #f6835b;
+}
+
+
+.cvf_footer_content .cvf_redes_sociales{
+	margin: auto;
+	padding-top: 20px;
 }
 
 .cvf_estadios{
@@ -471,6 +477,12 @@ iframe{
 	margin: auto;
 	
 }
+
+.cvf_footer_content{
+	
+}
+
+
 
 @media screen and (max-width: 1230px) {
 	#cvf_container{
