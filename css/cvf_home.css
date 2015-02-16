@@ -47,12 +47,16 @@ iframe{
 	height: 40px;
 	float: left;
 	margin-left: 10px;
+	cursor: pointer;
+}
+
+.cvf_redes_item:hover{
+	opacity: 0.8;
 }
 
 .cvf_banderin{
 	position: absolute;
 	bottom: 0px;
-	
 	height: 78px;
 }
 
@@ -74,7 +78,6 @@ iframe{
 	width: 100%;
 }
 
-
 .cvf_header_top_content.center{
 	width: 540px;
 	height: 100%;
@@ -85,6 +88,7 @@ iframe{
 	position: absolute;
 	bottom: 15px;
 	margin-left: -72px;
+	cursor: pointer;
 }
 
 .cvf_contador{
@@ -104,7 +108,7 @@ iframe{
 
 .cvf_contador_item{
 	float: left;
-	font-size: 20px;
+	font-size: 24px;
 	line-height: 20px;
 	
 }
@@ -112,9 +116,7 @@ iframe{
 #cvf_menu{
 	width: 100%;
 	height: 54px;
-
-	background-color: #f57751;
-	
+	background-color: #f57751;	
 }
 
 .cvf_menu_border{
@@ -127,8 +129,7 @@ iframe{
 	float: left;
 	width: 20%;
 	height: 100%;
-	text-align: center;
-	
+	text-align: center;	
 }
 
 .cvf_menu_item img{
@@ -410,6 +411,67 @@ iframe{
 	width: 100%;
 }
 
+.cvf_estadio_info{
+	
+}
+
+.cvf_share{
+	height: 27px;
+	width: auto;
+	display: table;
+	margin: 20px auto;
+	margin-bottom: 40px;
+}
+
+.cvf_share img{
+	height: 100%;
+}
+
+.cvf_share_title{
+	float: left;
+}
+
+.cvf_share_container{
+	display: table;
+	float: left;
+	margin-left: 10px;
+	height: 27px;
+}
+
+.cvf_share_item{
+	height: 30px;
+	float: left;
+	margin-left: 5px;
+}
+
+.cvf_share_item:hover{
+	opacity: 0.8;
+}
+
+.cvf_estadio_info{
+	position: fixed;
+	top: 0;
+	left: 0; 
+	display: none;
+}
+
+.cvf_estadio_info_container{
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+
+.cvf_estadio_info_c{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.cvf_estadio_info_item{
+	display: none;
+	margin: auto;
+	
+}
+
 @media screen and (max-width: 1230px) {
 	#cvf_container{
 		width: 832px;
@@ -440,35 +502,35 @@ iframe{
 		height: 100%;
 	}
 
-.cvf_header_top_content.center{
-	width: 342px;
-	height: 100%;
-}
-
-.cvf_header_top_content.center img {
-position: absolute;
-bottom: 55px;
-width: 150%;
-margin-left: -25%;
-}
-
-.cvf_menu_item img {
-height: 22px;
-margin-top: 15px;
-}
-
-.cvf_redes_sociales {
-margin-top: 10px;
-}
-
-
-#cvf_banderin_left {
-left: 50px;
-}
-
-#cvf_banderin_r{
-	right: 50px;
-}
+	.cvf_header_top_content.center{
+		width: 342px;
+		height: 100%;
+	}
+	
+	.cvf_header_top_content.center img {
+	position: absolute;
+	bottom: 55px;
+	width: 150%;
+	margin-left: -25%;
+	}
+	
+	.cvf_menu_item img {
+	height: 22px;
+	margin-top: 15px;
+	}
+	
+	.cvf_redes_sociales {
+	margin-top: 10px;
+	}
+	
+	
+	#cvf_banderin_left {
+	left: 50px;
+	}
+	
+	#cvf_banderin_r{
+		right: 50px;
+	}
 	
 }
 
@@ -527,6 +589,16 @@ left: 50px;
 
 }
 	
+}
+
+@media screen and (max-height: 800px) {
+	.cvf_estadio_info_item{
+		width: 600px;
+	}
+	
+	.cvf_estadio_info_item img{
+		width: 100%;
+	}
 }
 
 @media screen and (max-width: 750px) {
@@ -614,6 +686,14 @@ margin: auto;
 	.cvf_header_top_content.center img{
 		position: inherit;
 		bottom: 0px;
+	}
+	
+	.cvf_estadio_info_item{
+		width: 95%;
+	}
+	
+	.cvf_estadio_info_item img{
+		width: 100%;
 	}
 }
 
@@ -703,3 +783,6 @@ margin: auto;
 		margin-top: 22px;
 	}
 }
+
+
+
