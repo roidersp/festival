@@ -146,6 +146,11 @@ iframe{
 #cvf_body{
 	width: 100%;
 	position: relative;
+	padding-bottom: 350px;
+	background-image: url(../images/footer_imagen.png);
+	background-position: center bottom;
+	background-size: 1240px auto;
+	background-repeat: no-repeat;
 }
 
 #cvf_body:before{
