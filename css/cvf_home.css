@@ -1,5 +1,5 @@
 #cvf{
-	background-color: #acc7b1;
+	background-color: #2f5b6c;
 	width: 100%;
 	height: auto;
 	font-family: 'Roboto';
@@ -13,6 +13,7 @@ iframe{
 	width: 1230px;
 	height: auto;
 	margin: auto;
+	background-color: #aac8b3;
 }
 
 #cvf_header{
@@ -40,6 +41,7 @@ iframe{
 .cvf_redes_sociales{
 	display: table;
 	margin-top: 250px;
+	margin-left: 20px;
 }
 
 .cvf_redes_item{
@@ -143,6 +145,29 @@ iframe{
 
 #cvf_body{
 	width: 100%;
+	position: relative;
+}
+
+#cvf_body:before{
+	background-image: url(../images/lateral_izq.png);
+	background-repeat: repeat-y;
+	position: absolute;
+	content: "";
+	width: 250px;
+	top: -493px;
+	bottom: 0;
+	left: -230px;
+}
+
+#cvf_body:after{
+	background-image: url(../images/lateral_derecho.png);
+	background-repeat: repeat-y;
+	position: absolute;
+	content: "";
+	width: 250px;
+	top: -493px;
+	bottom: 0;
+	right: -230px;
 }
 
 .cvf_slider{
