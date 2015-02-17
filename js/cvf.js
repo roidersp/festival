@@ -12,15 +12,12 @@ $(document).on("click",".cvf_estadio",function(){
 		$(".cvf_estadio_info").fadeOut("slow");
 		$(document).off("click","body");
 	});*/
-	$(document).on("click",".cvf_estadios", function(){
-		$(".cvf_estadio_info").fadeOut("slow");
-		return false;
-	});
+	
 	
 	
 });
 
-$(document).on("click",".cvf_estadio_info", function(){
+$(".cvf_estadio_info").on("click", function(){
 	$(this).fadeOut("slow");
 });
 
