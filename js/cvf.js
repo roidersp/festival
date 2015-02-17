@@ -8,10 +8,10 @@ $(document).on("click",".cvf_estadio",function(){
 	var cvf_num=$(this).attr("num");
 	$("#cvf_ei_"+cvf_num).css("display","table");
 	$(".cvf_estadio_info").fadeIn("normal");
-	$(document).on("click","body", function(event){
+	/*$(document).on("click","body", function(event){
 		$(".cvf_estadio_info").fadeOut("slow");
 		$(document).off("click","body");
-	});
+	});*/
 });
 
 $(document).on("click",".cvf_estadio_info", function(){
