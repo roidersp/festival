@@ -64,3 +64,12 @@ $(".cvf_estadio_info").css({
 	"height": ventana_alto+"px"
 });
 
+$(window).on("resize", function(){
+	 ventana_alto = $(window).height();
+	 ventana_ancho = $(window).width();
+	 $(".cvf_estadio_info").css({
+		"width":ventana_ancho+"px",
+		"height": ventana_alto+"px"
+	});
+}
+
