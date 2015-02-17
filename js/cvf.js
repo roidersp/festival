@@ -3,7 +3,6 @@ var ventana_alto = $(window).height();
 var ventana_ancho = $(window).width();
 
 
-console.log("hola");
 $(document).on("click",".cvf_estadio",function(){
 	$(".cvf_estadio_info_item").css("display","none");
 	var cvf_num=$(this).attr("num");
@@ -14,6 +13,12 @@ $(document).on("click",".cvf_estadio",function(){
 $(document).on("click",".cvf_estadio_info", function(){
 	$(this).fadeOut("slow");
 });
+
+$(document).on("click",".cvf_estadio_info_container", function(){
+	$(".cvf_estadio_info").fadeOut("slow");
+});
+
+
 
 
 var contdown = function(){	
