@@ -18,7 +18,7 @@ $(document).on("click",".cvf_estadio_info", function(){
 	$(this).fadeOut("slow");
 });
 
-$(document).on("click",".cvf_estadio_info_container", function(){
+$(document).on("click",".cvf_estadios", function(){
 	$(".cvf_estadio_info").fadeOut("slow");
 });
 
