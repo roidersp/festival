@@ -10,7 +10,7 @@ $(document).on("click",".cvf_estadio",function(){
 	$(".cvf_estadio_info").fadeIn("normal");
 	$(document).on("click","body", function(event){
 		$(".cvf_estadio_info").fadeOut("slow");
-		$(this).off("click");
+		$(document).off("click","body");
 	});
 });
 
